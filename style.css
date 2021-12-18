@@ -123,8 +123,15 @@ div.title span{
 @media screen and (max-width: 720px) {
   div.title span{
     font-size: 32px;
-    line-height: 52px;
+    line-height: 52px; 
   }
+
+  .swiper{
+    position: absolute; 
+    bottom: 0; padding-top: 0;
+   }
+
+   button.button { bottom: 20px; }
 }
 
   
