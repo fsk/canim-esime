@@ -1,6 +1,5 @@
 # seni-cok-seviyorum
 <hr>
-# Birthday
 
 
 Benim canım sevgilim. Sen iyi ki dogdun ve iyi ki varsin. İyi ki hayatımdasın. 
