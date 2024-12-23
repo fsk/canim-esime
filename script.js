@@ -23,8 +23,17 @@ var swiper = new Swiper(".mySwiper", {
   audio.src="./utils/sarki.mp3";
 
   const btn = document.getElementById("btn");
+  let isPlaying = false;
 
   btn.addEventListener("click", (e) => {
-      console.log("Furkan");
-      audio.play();
+      if (!isPlaying) {
+          audio.play();
+          btn.textContent = "Evet, Kafan şiştiyse Buraya Tıkla🎵";
+          isPlaying = true;
+      } else {
+          audio.pause();
+          audio.currentTime = 0;
+          btn.textContent = "Şarkıyla Birlikte Gez istersen Fotoğrafları 🙃";
+          isPlaying = false;
+      }
   })
