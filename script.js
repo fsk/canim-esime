@@ -28,7 +28,7 @@ var swiper = new Swiper(".mySwiper", {
   btn.addEventListener("click", (e) => {
       if (!isPlaying) {
           audio.play();
-          btn.textContent = "Evet, Kafan şiştiyse Buraya Tıkla🎵";
+          btn.textContent = "Evet, Kafan şiştiyse Buraya Tıkla 🎵";
           isPlaying = true;
       } else {
           audio.pause();
